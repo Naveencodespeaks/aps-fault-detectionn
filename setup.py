@@ -1,4 +1,6 @@
-from setuptools import fing_packages,setup
+from setuptools import find_packages, setup
+
+
 
 from typing import List
 
@@ -23,6 +25,6 @@ setup(
     version = "0.0.1",
     author = "ineuron",
     author_email = "sainaveenadepu@gmail.com",
-    packages = fing_packages(),
+    packages = find_packages(),
     install_requires = get_requirements(),
 )
